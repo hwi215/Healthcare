@@ -1,0 +1,47 @@
+<head>
+	<meta charset="UTF-8">
+	<title>E-healthcare</title>
+	<link rel="stylesheet" href="style.css">
+	<script crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		function oneCheckbox(chk){
+ 			var obj = document.getElementsByName("aaa");
+ 				for(var i=0; i<obj.length; i++){
+ 					if(obj[i] != a){
+ 						obj[i].checked = false;
+ 				}
+			}
+ 		}
+</script>
+</head>
+<body>
+	<div class="main-container">
+		<div class="main-wrap">
+		<header>
+			<p style="text-align: center;">
+			<img src = "https://ifh.cc/g/icAFLh.png" width="200"> <!--사진 표시 할라면 src = "**" 별표시 된 부분 사진 저장 위치로 변경할 것!!-->
+			</p>
+			<div class="sel-lang-wrap">
+			</div>
+			<div class="logo-wrap">
+			</div>
+		</header>
+		<section class="login-input-section-wrap">
+			<div class="login-input-wrap">	
+				<input placeholder="아이디" type="text"></input>
+			</div>
+			<div class="login-input-wrap password-wrap">	
+				<input placeholder="비밀번호" type="password"></input>
+			</div>
+			<div class="login-button-wrap">
+				<input type="button" name="btn1" value="로그인" style="width:468px;height:52px; color:white; font-size:18; background-color:#DF3737;solid:#DF3737; border: 0">
+			</div>
+			<div class="login-stay-sign-in">
+				<input type="radio" name="aaa" value="user">일반
+				&nbsp;
+				<input type="radio" name="aaa" value="doctor">의사
+			</div>
+		</section>
+		</div>
+	</div>
+</body>
